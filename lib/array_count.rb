@@ -11,4 +11,6 @@ def count_empty_strings(array)
   array.count do |ele|
     if ele.is_a?(String)
       ele.empty?
+    end
+  end
 end
